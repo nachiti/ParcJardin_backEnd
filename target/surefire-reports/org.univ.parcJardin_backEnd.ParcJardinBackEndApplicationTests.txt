@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.974 s - in org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests
