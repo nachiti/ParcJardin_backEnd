@@ -26,6 +26,7 @@ public class ParcJardin implements Serializable {
     @Lob
     private String description;
     @ManyToMany
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) // pour ne pas retourner les services dans json
     private Collection<Service> services;
     @Column(length = 100)
     private String adresse;

@@ -7,6 +7,8 @@ import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Data
@@ -19,5 +21,6 @@ public class Service implements Serializable {
     private Long id;
     @Column(length = 20)
     private String nom;
-
+    @ManyToMany(mappedBy = "services")
+    Collection<ParcJardin> parcJardins;
 }

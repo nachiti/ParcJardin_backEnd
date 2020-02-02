@@ -28,7 +28,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
 
     @Override
     public void initServices() {
-        Stream.of("Wifi", "Caféteria", "Picniquer", "Point d'eau", "Foret", "Lac").forEach(serviceName -> {
+        Stream.of("Monument", "CAFETERIA", "Etude", "sport", "jeux", "Lac").forEach(serviceName -> {
             org.univ.parcJardin_backEnd.entities.Service service = new org.univ.parcJardin_backEnd.entities.Service();
             service.setNom(serviceName);
             serviceRepository.save(service);
