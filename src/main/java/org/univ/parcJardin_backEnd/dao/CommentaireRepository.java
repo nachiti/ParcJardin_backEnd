@@ -11,6 +11,6 @@ import java.util.List;
 @RepositoryRestResource
 public interface CommentaireRepository extends JpaRepository<Commentaire,Long>{
 
-    @Query("select c.utilisateur from commentaire c where c.id = ?1")
+    @Query("select c.utilisateur from Commentaire c where c.id = ?1")
     public List<Utilisateur> findUtilisateurOfCommentaire(Long id);
 }
