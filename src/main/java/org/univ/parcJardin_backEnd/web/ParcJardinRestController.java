@@ -98,14 +98,14 @@ public List<Utilisateur> getUtilisateurOfCommentaire(@PathVariable(name = "id")L
 }
 
 
-    @GetMapping(value = "/profilUtilisateur/{id}",produces = MediaType.IMAGE_JPEG_VALUE)
+ /*   @GetMapping(value = "/profilUtilisateur/{id}",produces = MediaType.IMAGE_JPEG_VALUE)
     public byte[] profilUtilisateur(@PathVariable(name = "id") Long id) throws IOException {
         Utilisateur utilisateur = utilisateurRepository.findById(id).get();
-        String nom = utilisateur.getPhoto();
-        File file = new File(System.getProperty("user.home")+"/parcJardins/profils/"+nom);
-        Path path = Paths.get(file.toURI());
+       // String nom = utilisateur.getPhoto();
+        //File file = new File(System.getProperty("user.home")+"/parcJardins/profils/"+nom);
+       // Path path = Paths.get(file.toURI());
         return Files.readAllBytes(path);
-    }
+    }*/
 
 
 /*    @GetMapping(value = "/")

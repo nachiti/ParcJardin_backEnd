@@ -37,7 +37,7 @@ public class ParcJardin implements Serializable {
     private Collection<Commentaire> commentaires;
     @OneToMany(mappedBy = "parcJardin")
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private Collection<Image> images;
+    private Collection<Photo> images;
 
     public ParcJardin(Type type, String nom, double latitude, double longitude, String description, Collection<Service> services, String adresse, String horaire, double noteGlobale) {
         this.type = type;

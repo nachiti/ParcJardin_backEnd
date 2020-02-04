@@ -75,7 +75,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
         parcJardinRepository.save(jardin2);
     }
 
-    @Override
+/*    @Override
     public void initUtilisateurs() {
         Stream.of("Bob", "Alice", "Greg","Lucile","Poline","Philipe").forEach(utilisateurName -> {
             Utilisateur utilisateur = new Utilisateur();
@@ -85,7 +85,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
             utilisateur.setPhoto(utilisateurName+".jpg");
             utilisateurRepository.save(utilisateur);
         });
-    }
+    }*/
 
     @Override
     public void initCommentaires() {
@@ -195,7 +195,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
         List<ParcJardin> parcJardins = parcJardinRepository.findAll();
         Stream.of("barbieux1.jpg", "barbieux2.jpg", "barbieux3.jpg", "barbieux4.jpg", "barbieux5.jpg"
         ).forEach(imageName -> {
-            Image image = new Image();
+            Photo image = new Photo();
             image.setNom(imageName);
             image.setParcJardin(parcJardins.get(0));
             imageRepository.save(image);
@@ -203,7 +203,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
 
         Stream.of("geants1.jpg", "geants2.jpg", "geants3.jpg", "geants4.jpg"
         ).forEach(imageName -> {
-            Image image = new Image();
+            Photo image = new Photo();
             image.setNom(imageName);
             image.setParcJardin(parcJardins.get(1));
             imageRepository.save(image);
@@ -211,7 +211,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
 
         Stream.of("heron1.jpg", "heron2.jpg", "heron3.jpg", "heron4.jpg"
         ).forEach(imageName -> {
-            Image image = new Image();
+            Photo image = new Photo();
             image.setNom(imageName);
             image.setParcJardin(parcJardins.get(2));
             imageRepository.save(image);
@@ -219,7 +219,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
 
         Stream.of("Jean-Baptiste1.jpg", "Jean-Baptiste2.jpg", "Jean-Baptiste3.jpg", "Jean-Baptiste4.jpg"
         ).forEach(imageName -> {
-            Image image = new Image();
+            Photo image = new Photo();
             image.setNom(imageName);
             image.setParcJardin(parcJardins.get(3));
             imageRepository.save(image);
@@ -227,7 +227,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
 
         Stream.of("La-plaine-de-la-Poterne1.jpg", "La-plaine-de-la-Poterne2.jpg", "La-plaine-de-la-Poterne3.jpg"
         ).forEach(imageName -> {
-            Image image = new Image();
+            Photo image = new Photo();
             image.setNom(imageName);
             image.setParcJardin(parcJardins.get(4));
             imageRepository.save(image);
