@@ -18,17 +18,17 @@ public class Commentaire implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @ManyToOne
-    private Utilisateur utilisateur;
-    private double note;
+   // @ManyToOne
+    private String nameUtilisateur;
+    private int note;
     @Lob
     private String message;
     @ManyToOne
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private ParcJardin parcJardin;
 
-    public Commentaire(Utilisateur utilisateur, double note, String message, ParcJardin parcJardin) {
-        this.utilisateur = utilisateur;
+    public Commentaire(String nameUtilisateur, int note, String message, ParcJardin parcJardin) {
+        this.nameUtilisateur = nameUtilisateur;
         this.note = note;
         this.message = message;
         this.parcJardin = parcJardin;

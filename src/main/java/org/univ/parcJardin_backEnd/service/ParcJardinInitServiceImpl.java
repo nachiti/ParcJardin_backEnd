@@ -75,7 +75,7 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
         parcJardinRepository.save(jardin2);
     }
 
-/*    @Override
+    @Override
     public void initUtilisateurs() {
         Stream.of("Bob", "Alice", "Greg","Lucile","Poline","Philipe").forEach(utilisateurName -> {
             Utilisateur utilisateur = new Utilisateur();
@@ -85,33 +85,33 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
             utilisateur.setPhoto(utilisateurName+".jpg");
             utilisateurRepository.save(utilisateur);
         });
-    }*/
+    }
 
     @Override
     public void initCommentaires() {
-        List<Utilisateur> utilisateurs = utilisateurRepository.findAll();
+        //List<Utilisateur> utilisateurs = utilisateurRepository.findAll();
         List<ParcJardin> parcJardins = parcJardinRepository.findAll();
 
-        Commentaire commentaire1 = new Commentaire(utilisateurs.get(0),5,"Un parc très agréable. Étendu dans une belle" +
+        Commentaire commentaire1 = new Commentaire(/*utilisateurs.get(0)*/"Ahmed",5,"Un parc très agréable. Étendu dans une belle" +
                 " longueur et traversé par l'eau d'un bout à l'autre cela " +
                 "donne une belle énergie à ce lieu. Des arbres immenses rendent cet espace paisible au cœur de la ville.",
                 parcJardins.get(0));
         commentaireRepository.save(commentaire1);
 
-        Commentaire commentaire2 = new Commentaire(utilisateurs.get(1),4.9,"Magnifique parc ou il fait bon" +
+        Commentaire commentaire2 = new Commentaire(/*utilisateurs.get(1)*/"Faical",4,"Magnifique parc ou il fait bon" +
                 " se balader ou se poser jolis bassins avec canards et autres oiseaux. Possibilité " +
                 "de pique nuque ou de faire du sport un lieu parfait pour celibataire ou en famille. ." +
                 "une petite buvette serait la bienvenue..;-)",
                 parcJardins.get(0));
         commentaireRepository.save(commentaire2);
 
-        Commentaire commentaire3 = new Commentaire(utilisateurs.get(2),4.6,"Très beau parc, tout en longueur, avec des arbres magnifiques et de " +
+        Commentaire commentaire3 = new Commentaire(/*utilisateurs.get(2)*/"Adriano",4,"Très beau parc, tout en longueur, avec des arbres magnifiques et de " +
                 "toutes les couleurs (j'y suis allée" +
                 " en automne). C'était très calme et et c'est très sympathique pour une balade d'une heure",
                 parcJardins.get(0));
         commentaireRepository.save(commentaire3);
 
-        Commentaire commentaire4 = new Commentaire(utilisateurs.get(3),5,"Toujours aussi joli parc !!!\n" +
+        Commentaire commentaire4 = new Commentaire(/*utilisateurs.get(3)*/"Ronaldo",5,"Toujours aussi joli parc !!!\n" +
                 "Je dirai même encore plus beau beau que dans mes souvenirs... grâce à la volonté de \"laisser faire" +
                 " la nature\" tout en la maîtrisant savamment...notamment sur toutes les berges !!!\n" +
                 "La faune et la flore s'en trouvent plus naturelles !!!\n" +
@@ -121,14 +121,14 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
         commentaireRepository.save(commentaire4);
 
                 //------------------------------------------------------------------------------------------------------
-        Commentaire commentaire5 = new Commentaire(utilisateurs.get(2),5, "Ce jardin n'est pas très grand mais il est fort bien aménagé. C'est une oasis de calme, de verdure, de Géants " +
+        Commentaire commentaire5 = new Commentaire(/*utilisateurs.get(2)*/"abdu",5, "Ce jardin n'est pas très grand mais il est fort bien aménagé. C'est une oasis de calme, de verdure, de Géants " +
                 "et autres sculptures en bordure de périphériques ou l'on peu aussi se désaltérer si le bar est ouvert. " +
                 "Les étendues d'eau et les espaces un peu isolés bien aménagés sont propices au calme, on peut s'y " +
                 "détendre en observant les canards.",
                 parcJardins.get(1));
         commentaireRepository.save(commentaire5);
 
-        Commentaire commentaire6 = new Commentaire(utilisateurs.get(4),5,"Un voyage dépaysant au royaume des jardins.\n" +
+        Commentaire commentaire6 = new Commentaire(/*utilisateurs.get(4)*/"Simo",5,"Un voyage dépaysant au royaume des jardins.\n" +
                 "Que dire sinon que ce jardin est fabuleux.\n" +
                 "Des thématiques originales, un jardin pour les enfants et pour les parents. Une scénographie soignée," +
                 " des idées de mise en scène. Une restauration Bio et locale. \n" +
@@ -136,11 +136,11 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
                 parcJardins.get(1));
         commentaireRepository.save(commentaire6);
 
-        Commentaire commentaire7 = new Commentaire(utilisateurs.get(5),5,"Adorable balade, des statues végétales, Un bar intérieur extérieur .. Des petits plans d'eau... Le chien adore la balade!",
+        Commentaire commentaire7 = new Commentaire(/*utilisateurs.get(5)*/"Messi",5,"Adorable balade, des statues végétales, Un bar intérieur extérieur .. Des petits plans d'eau... Le chien adore la balade!",
                 parcJardins.get(1));
         commentaireRepository.save(commentaire7);
 
-        Commentaire commentaire8 = new Commentaire(utilisateurs.get(1),5,"Tres beau lieux et très calme en tous cas il y a aussi des banc pour s'assoir et aussi un petit coin bar " +
+        Commentaire commentaire8 = new Commentaire(/*utilisateurs.get(1)*/"Faical",5,"Tres beau lieux et très calme en tous cas il y a aussi des banc pour s'assoir et aussi un petit coin bar " +
                 "et restauration ce qui permet de s areeter si on a soif ou faim et le jardin et très bien entretenu avec" +
                 " des belle réalisation en tous j ai vraiment apprécié le calme du jardin aussi",
                 parcJardins.get(1));
@@ -148,43 +148,43 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
 
                 //------------------------------------------------------------------------------------------------------
 
-        Commentaire commentaire9 = new Commentaire(utilisateurs.get(0),5,"Bon moment pour se promener sous le soleil.",
+        Commentaire commentaire9 = new Commentaire(/*utilisateurs.get(0)*/"Ahmed",5,"Bon moment pour se promener sous le soleil.",
                 parcJardins.get(2));
         commentaireRepository.save(commentaire9);
 
-        Commentaire commentaire10 = new Commentaire(utilisateurs.get(2),5,"Très bel endroit, jolies promenades à faire et quelque soit la saison. Centre équestre, manèges et vente" +
+        Commentaire commentaire10 = new Commentaire(/*utilisateurs.get(2)*/"Faical",5,"Très bel endroit, jolies promenades à faire et quelque soit la saison. Centre équestre, manèges et vente" +
                 " de sucreries sur place",
                 parcJardins.get(2));
         commentaireRepository.save(commentaire10);
 
-        Commentaire commentaire11 = new Commentaire(utilisateurs.get(1),4.9,"Lieu calme avec parking. Parfait pour un jogging ou une ballade.",
+        Commentaire commentaire11 = new Commentaire(/*utilisateurs.get(1)*/"Faical",4,"Lieu calme avec parking. Parfait pour un jogging ou une ballade.",
                 parcJardins.get(2));
         commentaireRepository.save(commentaire11);
 
-        Commentaire commentaire12 = new Commentaire(utilisateurs.get(3),5, "Jolie parc et grand, permet de faire une balade",
+        Commentaire commentaire12 = new Commentaire(/*utilisateurs.get(3)*/"Ronaldo",5, "Jolie parc et grand, permet de faire une balade",
                 parcJardins.get(2));
         commentaireRepository.save(commentaire12);
 
                 //------------------------------------------------------------------------------------------------------
-        Commentaire commentaire13 = new Commentaire(utilisateurs.get(1),3,  "Personnel de \"surveillance\" peux aimable !!! 2 étoiles car l'on peux croisé de super personne et y" +
+        Commentaire commentaire13 = new Commentaire(/*utilisateurs.get(1)*/"Faical",3,  "Personnel de \"surveillance\" peux aimable !!! 2 étoiles car l'on peux croisé de super personne et y" +
                 " passé d'agréables moments.\n" +
                 "Mais il faut pensé a modifié la qualité d'approche professionnel du personnel...",
                 parcJardins.get(3));
         commentaireRepository.save(commentaire13);
 
-        Commentaire commentaire14 = new Commentaire(utilisateurs.get(0),5,   "Parc très bien situé et agréable avec pas mal de jeux pour les enfants de 2 à 10 ans avec de grandes étendues " +
+        Commentaire commentaire14 = new Commentaire(/*utilisateurs.get(0)*/"Ahmed",5,   "Parc très bien situé et agréable avec pas mal de jeux pour les enfants de 2 à 10 ans avec de grandes étendues " +
                 "d'herbe pour les amateurs de ballon ou autre jeu d'extérieur. Juste en face de la gare st sauveur. " +
                 "Ambiance bon enfant assurée ;-)",
                 parcJardins.get(3));
         commentaireRepository.save(commentaire14);
 
                 //------------------------------------------------------------------------------------------------------
-        Commentaire commentaire15 = new Commentaire(utilisateurs.get(3),1,   "Décharge, ordures en tout genre, comment peut-on laissez faire ça ,  que font les villes de Saint André et " +
+        Commentaire commentaire15 = new Commentaire(/*utilisateurs.get(3)*/"Ronaldo",1,   "Décharge, ordures en tout genre, comment peut-on laissez faire ça ,  que font les villes de Saint André et " +
                 "de Lille ???  HONTEUX quel dommage et quelle mauvaise image !",
                 parcJardins.get(4));
         commentaireRepository.save(commentaire15);
 
-        Commentaire commentaire16 = new Commentaire(utilisateurs.get(4),3,"Petit parc agréable mais manque un peut d'entretien",
+        Commentaire commentaire16 = new Commentaire(/*utilisateurs.get(4)*/"Simo",3,"Petit parc agréable mais manque un peut d'entretien",
                 parcJardins.get(4));
         commentaireRepository.save(commentaire16);
 
@@ -195,42 +195,42 @@ public class ParcJardinInitServiceImpl implements IParcJardinIntService {
         List<ParcJardin> parcJardins = parcJardinRepository.findAll();
         Stream.of("barbieux1.jpg", "barbieux2.jpg", "barbieux3.jpg", "barbieux4.jpg", "barbieux5.jpg"
         ).forEach(imageName -> {
-            Photo image = new Photo();
-            image.setNom(imageName);
-            image.setParcJardin(parcJardins.get(0));
-            imageRepository.save(image);
+            photo photo = new photo();
+            photo.setNom(imageName);
+            photo.setParcJardin(parcJardins.get(0));
+            imageRepository.save(photo);
         });
 
         Stream.of("geants1.jpg", "geants2.jpg", "geants3.jpg", "geants4.jpg"
         ).forEach(imageName -> {
-            Photo image = new Photo();
-            image.setNom(imageName);
-            image.setParcJardin(parcJardins.get(1));
-            imageRepository.save(image);
+            photo photo = new photo();
+            photo.setNom(imageName);
+            photo.setParcJardin(parcJardins.get(1));
+            imageRepository.save(photo);
         });
 
         Stream.of("heron1.jpg", "heron2.jpg", "heron3.jpg", "heron4.jpg"
         ).forEach(imageName -> {
-            Photo image = new Photo();
-            image.setNom(imageName);
-            image.setParcJardin(parcJardins.get(2));
-            imageRepository.save(image);
+            photo photo = new photo();
+            photo.setNom(imageName);
+            photo.setParcJardin(parcJardins.get(2));
+            imageRepository.save(photo);
         });
 
         Stream.of("Jean-Baptiste1.jpg", "Jean-Baptiste2.jpg", "Jean-Baptiste3.jpg", "Jean-Baptiste4.jpg"
         ).forEach(imageName -> {
-            Photo image = new Photo();
-            image.setNom(imageName);
-            image.setParcJardin(parcJardins.get(3));
-            imageRepository.save(image);
+            photo photo = new photo();
+            photo.setNom(imageName);
+            photo.setParcJardin(parcJardins.get(3));
+            imageRepository.save(photo);
         });
 
         Stream.of("La-plaine-de-la-Poterne1.jpg", "La-plaine-de-la-Poterne2.jpg", "La-plaine-de-la-Poterne3.jpg"
         ).forEach(imageName -> {
-            Photo image = new Photo();
-            image.setNom(imageName);
-            image.setParcJardin(parcJardins.get(4));
-            imageRepository.save(image);
+            photo photo = new photo();
+            photo.setNom(imageName);
+            photo.setParcJardin(parcJardins.get(4));
+            imageRepository.save(photo);
         });
 
     }

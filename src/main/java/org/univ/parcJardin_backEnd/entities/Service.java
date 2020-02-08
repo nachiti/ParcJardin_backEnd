@@ -19,6 +19,10 @@ public class Service implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(length = 20)
+    private String nom;
+    @ManyToMany(mappedBy = "services")
+    Collection<ParcJardin> parcJardins;
 
     public Long getId() {
         return id;
@@ -43,10 +47,4 @@ public class Service implements Serializable {
     public void setParcJardins(Collection<ParcJardin> parcJardins) {
         this.parcJardins = parcJardins;
     }
-
-    @Column(length = 20)
-    private String nom;
-    @ManyToMany(mappedBy = "services")
-    Collection<ParcJardin> parcJardins;
-
 }

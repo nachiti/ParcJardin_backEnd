@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="parcJardin_backEnd" />
+        <module name="ParcJardin_backEnd" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ParcJardin_backEnd" options="-parameters" />
       <module name="parcJardin_backEnd" options="-parameters" />
     </option>
   </component>

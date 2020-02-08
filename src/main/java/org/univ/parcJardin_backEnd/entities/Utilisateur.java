@@ -26,15 +26,15 @@ public class Utilisateur implements Serializable {
     private String photo;
     @Column(length = 40)
     private String mail;
-    @OneToMany(mappedBy ="utilisateur")
+    /*@OneToMany(mappedBy ="utilisateur")
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private Collection<Commentaire> commentaires;
+    private Collection<Commentaire> commentaires;*/
 
     public Utilisateur(String pseudo, String password, String photo, String mail, Collection<Commentaire> commentaires) {
         this.pseudo = pseudo;
         this.password = password;
         this.photo = photo;
         this.mail = mail;
-        this.commentaires = commentaires;
+       // this.commentaires = commentaires;
     }
 }

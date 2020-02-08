@@ -20,7 +20,7 @@ public class ParcJardinBackEndApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		iParcJardinIntService.initServices();
 		iParcJardinIntService.initParcJardins();
-		//iParcJardinIntService.initUtilisateurs();
+		iParcJardinIntService.initUtilisateurs();
 		iParcJardinIntService.initCommentaires();
 		iParcJardinIntService.initImages();
 	}
