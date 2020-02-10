@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4080c220-dfee-43ad-ba19-600e3fa8119e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/ParcJardinBackEndApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/ParcJardinBackEndApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/CommentaireRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/CommentaireRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/ImageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/ImageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Commentaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Commentaire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/ParcJardin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/ParcJardin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Utilisateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Utilisateur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/IParcJardinIntService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/IParcJardinIntService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/ParcJardinInitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/ParcJardinInitServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/web/ParcJardinRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/web/ParcJardinRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/Commentaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/Commentaire.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
