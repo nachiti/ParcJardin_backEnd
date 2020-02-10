@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4080c220-dfee-43ad-ba19-600e3fa8119e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/ParcJardinBackEndApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/ParcJardinBackEndApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/CommentaireRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/CommentaireRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/ImageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/dao/ImageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Commentaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Commentaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/ParcJardin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/ParcJardin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Utilisateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/entities/Utilisateur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/IParcJardinIntService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/IParcJardinIntService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/ParcJardinInitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/service/ParcJardinInitServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/web/ParcJardinRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/univ/parcJardin_backEnd/web/ParcJardinRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.univ.parcJardin_backEnd.ParcJardinBackEndApplicationTests.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +27,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ParcJardin_backEnd" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,7 +70,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ParcJardinBackEndApplication">
+    <configuration name="ParcJardinBackEndApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.univ.parcJardin_backEnd.ParcJardinBackEndApplication" />
+      <module name="ParcJardin_backEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ.parcJardin_backEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParcJardinBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="parcJardin_backEnd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.univ.parcJardin_backEnd.ParcJardinBackEndApplication" />
@@ -61,6 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ParcJardinBackEndApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
