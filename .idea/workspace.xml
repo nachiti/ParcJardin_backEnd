@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4080c220-dfee-43ad-ba19-600e3fa8119e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/Commentaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/Commentaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/dao/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/dao/ImageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/ParcJardin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/ParcJardin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ/parcJardin_backEnd/entities/Photo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
